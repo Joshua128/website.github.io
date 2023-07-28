@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:rgb(222, 195, 115);
+
+
+}
+
+#wonky{
+    margin-top: 50px;
+    text-align:center;
+    transform: translate(0px,45px)
+}
+
+
+#boom{
+    width:50px;
+    background-color: rgba(231, 226, 226, 0.904);
+}
+
+.navigations{
+    display:flex; 
+    justify-content: center;
+    align-items:center; 
+    background-color: rgba(231, 226, 226, 0.904);
+}
+.navigations li{
+    text-decoration-style: none;
+    display:inline;
+    padding: 0px 10px;
+    align-items: center;
+    background-color: rgba(231, 226, 226, 0.904);
+   
+}
+.navigations li:hover{
+    background-color:rgb(11, 250, 11);
+    opacity: 0.2;
+}
+.navigations ul{
+    background-color: rgba(231, 226, 226, 0.904);
+}
+.navigation a{
+    text-decoration: none;
+}
+
+.ex{
+    margin-top: 150px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+   
+}
+.ex div {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+#exs{
+    border: solid rgb(0,0,0,0.2) 2px;
+    margin: 0px 50px;
+    margin-right:95px;
+    transform: translate(-25px,0px);
+    box-shadow: 0px 40px rgba(0, 0, 0, 0.7);
+}
+#plop{
+    border: solid rgb(0,0,0,0.2) 2px;
+    padding-right: 30px;
+    transform: translate(-90px,0px);
+    box-shadow: 0px 40px rgba(0, 0, 0, 0.7);
+
+}
+#plost{
+    border: solid rgb(0,0,0,0.2) 2px;
+    margin-left:20px;
+    box-shadow: 0px 40px rgba(0, 0, 0, 0.7);
+}
+
+.ap{
+    width:250px;
+    background-color: aqua;
+    
+}
+.awards{
+    
+    margin-top:260px;
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.awards div{
+    transform: translate(-25px,-25px);
+    margin-top: 100px;
+    background-color: aqua;
+    
+}
+
+.award{
+    margin-top: 150px;
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    
+}
+
+.award div{
+    transform: translate(-120px,0px);
+    background-color: aqua;
+    
+}
+.ap2{
+    width: 100px;
+    background-color: aqua;
+    
+}
+
+.awar{
+    margin-top: 150px;
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    
+    
+}
+
+.arr{
+    transform: translate(660px, 0px);
+    background-color: aqua;
+    
+}
+.arr div{
+    background-color: aqua;
+}
+
+.ap3{
+
+    width:100px;
+    background-color: aqua;
+    
+}
+.awar div{
+    background-color: aqua;
+    transform: translate(1px,0px);
+}
+
+
+.below{ 
+    background-color: aqua;
+}
+
+.swinger{
+    font-size: 50px;
+    transform: translate(625px,250px);
+}
